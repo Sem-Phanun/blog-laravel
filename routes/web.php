@@ -5,6 +5,7 @@ use App\Http\Controllers\Auth\LogoutController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\DestinationController;
 use App\Http\Controllers\FoodController;
+use App\Http\Controllers\LifestyleController;
 use App\Http\Controllers\SportController;
 use Illuminate\Support\Facades\Route;
 
@@ -40,3 +41,5 @@ Route::post('/login', [LoginController::class, 'createLogin']);
 
 //logout route
 Route::get('/logout', [LogoutController::class, 'handleLogout'])->name('logout');
+
+Route::get('/lifestyle', [LifestyleController::class, 'lifestyles'])->name('lifestyle');

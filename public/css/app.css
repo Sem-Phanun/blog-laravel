@@ -512,6 +512,15 @@ video {
   white-space: nowrap;
   border-width: 0;
 }
+.sticky {
+  position: sticky;
+}
+.top-0 {
+  top: 0px;
+}
+.z-50 {
+  z-index: 50;
+}
 .m-4 {
   margin: 1rem;
 }

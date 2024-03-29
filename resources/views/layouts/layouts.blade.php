@@ -18,7 +18,7 @@
 
 </head>
 <body>
-    <header class="bg-slate-100 text-black uppercase">
+    <header class="bg-slate-100 text-black uppercase sticky top-0 z-50">
         <nav class="p-4 flex items-center justify-between">
             <ul class="flex items-center justify-center">
                 <li class="mr-auto p-4">
